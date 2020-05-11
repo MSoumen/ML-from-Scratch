@@ -1,3 +1,5 @@
+## GetAdmission-or-Not
+
 Run __admitted_or_not.m__ with X_train,y_train,X_test arguments.
 
 _**It shows if a Student can admitted in a college or not**_.
