@@ -1,11 +1,12 @@
 ## Classifier using Neural-Networks
 
 Run the file **nn_classifier.m** with _X_train_, _y_train_, _X_test_ arguments.
+This NN has only 1 hidden layer.
 
-[Optional] you can give arguments like _lambda_, _input_layer_, _hidden_layer_, _num_labels_, _iterations_
+[Optional] you can give arguments like _lambda_, _input_layer_units_, _hidden_layer_units_, _num_labels_, _iterations_
 like : 
 
-` predictions= nn_classifier(X_tr, y_tr, X_test, lambda=1, input_layer=400, hidden_layer=25, num_labels=10, iterations=100)`
+` predictions= nn_classifier(X_tr, y_tr, X_test, lambda=1, input_layer_units=400, hidden_layer_units=25, num_labels=10, iterations=100)`
 ###### Note that given arguments values are by default
 
 Here 
